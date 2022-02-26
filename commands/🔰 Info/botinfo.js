@@ -19,7 +19,7 @@ module.exports = {
     
     try{
       let tempmsg = await message.reply({embeds: [new Discord.MessageEmbed().setColor(es.color)
-      .setAuthor(client.la[ls].cmds.info.botinfo.loading, "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/milrato")]})
+      .setAuthor(client.la[ls].cmds.info.botinfo.loading, "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/PTGzEysqjf")]})
       cpuStat.usagePercent(function (e, percent, seconds) {
           if (e) {
               return console.log(e.stack ? String(e.stack).grey : String(e).grey);
@@ -57,10 +57,10 @@ module.exports = {
 };
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by Limsathya#2846 | https://discord.gg/PTGzEysqjf
   * @INFO
-  * Work for Milrato Development | https://milrato.eu
+  * Work for Limsathyacord | https://discord.gg/PTGzEysqjf
   * @INFO
-  * Please mention him / Milrato Development, when using this Code!
+  * Please mention him / Limsathyacord, when using this Code!
   * @INFO
 */

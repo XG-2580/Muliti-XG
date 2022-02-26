@@ -32,7 +32,7 @@ module.exports = {
         //create the EMBED
         const embeduserinfo = new MessageEmbed()
         embeduserinfo.setThumbnail(message.guild.iconURL({ dynamic: true, size: 512 }))
-        embeduserinfo.setAuthor(client.la[ls].cmds.info.roleinfo.author + " " + role.name, message.guild.iconURL({ dynamic: true }), "https://discord.gg/milrato")
+        embeduserinfo.setAuthor(client.la[ls].cmds.info.roleinfo.author + " " + role.name, message.guild.iconURL({ dynamic: true }), "https://discord.gg/PTGzEysqjf")
         embeduserinfo.addField(client.la[ls].cmds.info.roleinfo.field1,`\`${role.name}\``,true)
         embeduserinfo.addField(client.la[ls].cmds.info.roleinfo.field2,`\`${role.id}\``,true)
         embeduserinfo.addField(client.la[ls].cmds.info.roleinfo.field3,`\`${role.hexColor}\``,true)
@@ -61,10 +61,10 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Limsathya#2846 | https://discord.gg/PTGzEysqjf
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Limsathyacord | https://discord.gg/PTGzEysqjf
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Limsathyacord, when using this Code!
  * @INFO
  */

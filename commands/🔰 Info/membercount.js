@@ -21,7 +21,7 @@ module.exports = {
         message.reply({embeds: [new Discord.MessageEmbed()
         .setAuthor(client.la[ls].cmds.info.membercount.title + " " +message.guild.name, message.guild.iconURL({
           dynamic: true
-        }), "https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot%20applications.commands")
+        }), "https://discord.com/api/oauth2/authorize?client_id=861249452789596200&permissions=8&scope=bot%20applications.commands%20applications.commands")
         .setColor(es.color)
         .addField(client.la[ls].cmds.info.membercount.field1, "😀 \`" + message.guild.memberCount + "\`", true)
         .addField(client.la[ls].cmds.info.membercount.field2, "👤 \`" + message.guild.members.cache.filter(member => !member.user.bot).size + "\`", true)
@@ -57,10 +57,10 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Limsathya#2846 | https://discord.gg/PTGzEysqjf
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Limsathyacord | https://discord.gg/PTGzEysqjf
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Limsathyacord, when using this Code!
  * @INFO
  */

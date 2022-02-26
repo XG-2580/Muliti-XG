@@ -1,6 +1,6 @@
 {
     "token": "GET from: https://discord.com/developers/applications",
-    "prefix": "//",
+    "prefix": "v!",
     "ownerIDS": [
         "594195050242768899"
     ],
@@ -16,9 +16,9 @@
     "clientsettings": {
         "nodes": [
             {
-                "host": "lava.link",
-                "port": 80,
-                "password": "youshallnotpass"
+                "host": "94.237.79.217",
+                "port": 2580,
+                "password": "MadebyLimsathya"
             }
         ]
     },

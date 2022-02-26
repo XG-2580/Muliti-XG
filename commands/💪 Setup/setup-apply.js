@@ -128,7 +128,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new Discord.MessageEmbed()
           .setColor(es.color)
-          .setAuthor(client.getAuthor('Application Setup', 'https://cdn.discordapp.com/emojis/877653386747605032.png?size=96', 'https://discord.gg/milrato'))
+          .setAuthor(client.getAuthor('Application Setup', 'https://cdn.discordapp.com/emojis/877653386747605032.png?size=96', 'https://discord.gg/PTGzEysqjf'))
           .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable2"]))
         let used1 = false;
         //send the menu msg
@@ -351,7 +351,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new Discord.MessageEmbed()
           .setColor(es.color)
-          .setAuthor(SetupNumber + " Apply Setup", "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/incoming-envelope_1f4e8.png", "https://discord.gg/milrato")
+          .setAuthor(SetupNumber + " Apply Setup", "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/incoming-envelope_1f4e8.png", "https://discord.gg/PTGzEysqjf")
           .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable4"]))
         //send the menu msg
         let menumsg = await message.reply({embeds: [MenuEmbed], components: [new MessageActionRow().addComponents(Selection)]})
@@ -2706,7 +2706,7 @@ module.exports = {
             .setFooter(client.getFooter(es))
 
             .setColor(es.color)
-            .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable174"])) //Tomato#6966
+            .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable174"])) //Limsathya#2846
             .setFooter("ADD THE INDEX TO EDIT THE MSG", message.guild.iconURL({
               dynamic: true
             }))
@@ -2877,7 +2877,7 @@ module.exports = {
                     Questions = apply_for_here.get(message.guild.id, pre+".QUESTIONS");
                     var new_embed = new Discord.MessageEmbed().setFooter(client.getFooter(es))
                       .setColor(es.color)
-                      .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable177"])) //Tomato#6966
+                      .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable177"])) //Limsathya#2846
                       .setFooter(message.guild.name, message.guild.iconURL({
                         dynamic: true
                       }))
@@ -3133,7 +3133,7 @@ module.exports = {
               Questions = apply_for_here.get(message.guild.id, pre+".QUESTIONS");
               var embed = new Discord.MessageEmbed().setFooter(client.getFooter(es))
                 .setColor(es.color)
-                .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable188"])) //Tomato#6966
+                .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable188"])) //Limsathya#2846
                 .setFooter(message.guild.name, message.guild.iconURL({
                   dynamic: true
                 }))
@@ -3169,7 +3169,7 @@ module.exports = {
             .setFooter(client.getFooter(es))
 
             .setColor(es.color)
-            .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable190"])) //Tomato#6966
+            .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable190"])) //Limsathya#2846
             .setFooter("ADD THE INDEX TO EDIT THE MSG", message.guild.iconURL({
               dynamic: true
             }))
@@ -3225,7 +3225,7 @@ module.exports = {
                 Questions = apply_for_here.get(message.guild.id, pre+".QUESTIONS");
                 var new_embed = new Discord.MessageEmbed().setFooter(client.getFooter(es))
                   .setColor(es.color)
-                  .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable193"])) //Tomato#6966
+                  .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable193"])) //Limsathya#2846
                   .setFooter(message.guild.name, message.guild.iconURL({
                     dynamic: true
                   }))
@@ -3511,8 +3511,8 @@ module.exports = {
           var embed = new Discord.MessageEmbed()
             .setFooter(client.getFooter(es))
             .setColor(es.color)
-            .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable219"])) //Tomato#6966
-            .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable220"])) //Tomato#6966
+            .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable219"])) //Limsathya#2846
+            .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable220"])) //Limsathya#2846
             .setTimestamp()
           message.reply({
             embeds: [embed]
@@ -3535,11 +3535,11 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://github?.com/Tomato6966/Discord-Js-Handler-Template
+ * Bot Coded by Limsathya#2846 | https://github?.com/Limsathya#2846/Discord-Js-Handler-Template
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Limsathyacord | https://discord.gg/PTGzEysqjf
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Limsathyacord, when using this Code!
  * @INFO
  */
 

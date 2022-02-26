@@ -12,7 +12,7 @@
  * 8  LOAD_the_BOT_Functions
  * 9  Login_to_the_Bot
  * 
- *   BOT CODED BY: TOMato6966 | https://milrato.eu
+ *   BOT CODED BY: Limsathya#2846 | https://discord.gg/PTGzEysqjf
  *********************************************************/
 
 
@@ -149,10 +149,10 @@ client.login(process.env.token || config.token);
 
 /**********************************************************
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Limsathya#2846 | https://discord.gg/PTGzEysqjf
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Limsathyacord | https://discord.gg/PTGzEysqjf
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Limsathyacord, when using this Code!
  * @INFO
  *********************************************************/

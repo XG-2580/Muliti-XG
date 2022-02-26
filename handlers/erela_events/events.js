@@ -93,7 +93,7 @@ module.exports = (client) => {
         if(client.musicsettings.get(player.guild, "channel") && client.musicsettings.get(player.guild, "channel").length > 5){
           let messageId = client.musicsettings.get(player.guild, "message");
           let guild = client.guilds.cache.get(player.guild);
-          if(!guild)  
+          if(!guild);  
           let channel = guild.channels.cache.get(client.musicsettings.get(player.guild, "channel"));
           if(guild && channel && message) {
             let channel = guild.channels.cache.get(musicsettings.channel);
@@ -478,11 +478,11 @@ module.exports = (client) => {
 };
 /**
 * @INFO
-* Bot Coded by Tomato#6966 | https://github?.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
+* Bot Coded by Limsathya#2846 | https://github?.com/Limsathya#2846/discord-js-lavalink-Music-Bot-erela-js
 * @INFO
-* Work for Milrato Development | https://milrato.eu
+* Work for Limsathyacord | https://discord.gg/PTGzEysqjf
 * @INFO
-* Please mention Him / Milrato Development, when using this Code!
+* Please mention Him / Limsathyacord, when using this Code!
 * @INFO
 */
 

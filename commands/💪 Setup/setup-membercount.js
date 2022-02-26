@@ -60,7 +60,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new Discord.MessageEmbed()
         .setColor(es.color)
-        .setAuthor('Member Counter Setup', 'https://cdn.discordapp.com/emojis/891040423605321778.png?size=96', 'https://discord.gg/milrato')
+        .setAuthor('Member Counter Setup', 'https://cdn.discordapp.com/emojis/891040423605321778.png?size=96', 'https://discord.gg/PTGzEysqjf')
         .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable2"]))
         let used1 = false;
         //send the menu msg
@@ -316,11 +316,11 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://github?.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
+ * Bot Coded by Limsathya#2846 | https://github?.com/Limsathya#2846/discord-js-lavalink-Music-Bot-erela-js
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Limsathyacord | https://discord.gg/PTGzEysqjf
  * @INFO
- * Please mention Him / Milrato Development, when using this Code!
+ * Please mention Him / Limsathyacord, when using this Code!
  * @INFO
  */
 function getNumberEmojis() {
